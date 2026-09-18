@@ -1,0 +1,16 @@
+{
+  "name": "kumbh-local",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev --workspace=apps/api",
+    "dev:mobile": "npm run start --workspace=apps/mobile",
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:mobile\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
