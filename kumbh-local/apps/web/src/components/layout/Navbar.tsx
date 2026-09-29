@@ -110,7 +110,7 @@ export function Navbar() {
           <div className="flex items-center justify-between h-20">
             
             {/* Brand Logo */}
-            <Link href="/" className="flex items-center gap-3 group">
+            <Link href="/home" className="flex items-center gap-3 group">
               <div className="w-10 h-10 rounded-lg bg-deep-rust text-soft-limestone flex items-center justify-center font-serif text-2xl font-bold shadow-xs border border-terracotta/40 group-hover:bg-terracotta transition-colors duration-300">
                 क
               </div>
