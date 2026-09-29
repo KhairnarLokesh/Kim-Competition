@@ -1,5 +1,0 @@
-{
-  "buildCommand": "cd kumbh-local && npm install && npm run build --workspace=apps/web",
-  "outputDirectory": "kumbh-local/apps/web/.next",
-  "framework": "nextjs"
-}
