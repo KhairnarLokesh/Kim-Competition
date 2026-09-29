@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+**/.next/
+out/
+
+# Production build
+dist/
+build/
+
+# Android & Gradle
+.gradle/
+**/apps/mobile/.gradle/
+**/apps/mobile/build/
+**/apps/mobile/app/build/
+
+# Environment variables
+.env
+.env*.local
+!.env.example
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System & Editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
